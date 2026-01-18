@@ -1,0 +1,16 @@
+{
+  "name": "leetcode-blind75",
+  "version": "1.0.0",
+  "description": "Blind75 刷題練習",
+  "scripts": {
+    "status": "ts-node scripts/status.ts",
+    "done": "ts-node scripts/done.ts",
+    "new": "ts-node scripts/new.ts",
+    "solve": "ts-node"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
