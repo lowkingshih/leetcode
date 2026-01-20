@@ -1,0 +1,460 @@
+{
+  "problems": [
+    {
+      "id": 217,
+      "name": "contains-duplicate",
+      "topic": "array",
+      "category": "Array & Hashing",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 242,
+      "name": "valid-anagram",
+      "topic": "array",
+      "category": "Array & Hashing",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 1,
+      "name": "two-sum",
+      "topic": "array",
+      "category": "Array & Hashing",
+      "difficulty": "Easy",
+      "status": "done"
+    },
+    {
+      "id": 49,
+      "name": "group-anagrams",
+      "topic": "array",
+      "category": "Array & Hashing",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 347,
+      "name": "top-k-frequent-elements",
+      "topic": "array",
+      "category": "Array & Hashing",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 238,
+      "name": "product-of-array-except-self",
+      "topic": "array",
+      "category": "Array & Hashing",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 271,
+      "name": "encode-and-decode-strings",
+      "topic": "array",
+      "category": "Array & Hashing",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 128,
+      "name": "longest-consecutive-sequence",
+      "topic": "array",
+      "category": "Array & Hashing",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 125,
+      "name": "valid-palindrome",
+      "topic": "two-pointers",
+      "category": "Two Pointers",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 15,
+      "name": "3sum",
+      "topic": "two-pointers",
+      "category": "Two Pointers",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 11,
+      "name": "container-with-most-water",
+      "topic": "two-pointers",
+      "category": "Two Pointers",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 121,
+      "name": "best-time-to-buy-and-sell-stock",
+      "topic": "sliding-window",
+      "category": "Sliding Window",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 3,
+      "name": "longest-substring-without-repeating-characters",
+      "topic": "sliding-window",
+      "category": "Sliding Window",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 424,
+      "name": "longest-repeating-character-replacement",
+      "topic": "sliding-window",
+      "category": "Sliding Window",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 76,
+      "name": "minimum-window-substring",
+      "topic": "sliding-window",
+      "category": "Sliding Window",
+      "difficulty": "Hard",
+      "status": "todo"
+    },
+    {
+      "id": 20,
+      "name": "valid-parentheses",
+      "topic": "stack",
+      "category": "Stack",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 153,
+      "name": "find-minimum-in-rotated-sorted-array",
+      "topic": "binary-search",
+      "category": "Binary Search",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 33,
+      "name": "search-in-rotated-sorted-array",
+      "topic": "binary-search",
+      "category": "Binary Search",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 206,
+      "name": "reverse-linked-list",
+      "topic": "linked-list",
+      "category": "Linked List",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 21,
+      "name": "merge-two-sorted-lists",
+      "topic": "linked-list",
+      "category": "Linked List",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 141,
+      "name": "linked-list-cycle",
+      "topic": "linked-list",
+      "category": "Linked List",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 143,
+      "name": "reorder-list",
+      "topic": "linked-list",
+      "category": "Linked List",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 19,
+      "name": "remove-nth-node-from-end-of-list",
+      "topic": "linked-list",
+      "category": "Linked List",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 23,
+      "name": "merge-k-sorted-lists",
+      "topic": "linked-list",
+      "category": "Linked List",
+      "difficulty": "Hard",
+      "status": "todo"
+    },
+    {
+      "id": 226,
+      "name": "invert-binary-tree",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 104,
+      "name": "maximum-depth-of-binary-tree",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 100,
+      "name": "same-tree",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 572,
+      "name": "subtree-of-another-tree",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 235,
+      "name": "lowest-common-ancestor-of-bst",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 102,
+      "name": "binary-tree-level-order-traversal",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 98,
+      "name": "validate-binary-search-tree",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 230,
+      "name": "kth-smallest-element-in-a-bst",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 105,
+      "name": "construct-binary-tree-from-preorder-and-inorder",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 124,
+      "name": "binary-tree-maximum-path-sum",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Hard",
+      "status": "todo"
+    },
+    {
+      "id": 297,
+      "name": "serialize-and-deserialize-binary-tree",
+      "topic": "tree",
+      "category": "Tree",
+      "difficulty": "Hard",
+      "status": "todo"
+    },
+    {
+      "id": 295,
+      "name": "find-median-from-data-stream",
+      "topic": "heap",
+      "category": "Heap",
+      "difficulty": "Hard",
+      "status": "todo"
+    },
+    {
+      "id": 200,
+      "name": "number-of-islands",
+      "topic": "graph",
+      "category": "Graph",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 133,
+      "name": "clone-graph",
+      "topic": "graph",
+      "category": "Graph",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 207,
+      "name": "course-schedule",
+      "topic": "graph",
+      "category": "Graph",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 417,
+      "name": "pacific-atlantic-water-flow",
+      "topic": "graph",
+      "category": "Graph",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 261,
+      "name": "graph-valid-tree",
+      "topic": "graph",
+      "category": "Graph",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 323,
+      "name": "number-of-connected-components",
+      "topic": "graph",
+      "category": "Graph",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 70,
+      "name": "climbing-stairs",
+      "topic": "dp-1d",
+      "category": "1-D DP",
+      "difficulty": "Easy",
+      "status": "todo"
+    },
+    {
+      "id": 198,
+      "name": "house-robber",
+      "topic": "dp-1d",
+      "category": "1-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 213,
+      "name": "house-robber-ii",
+      "topic": "dp-1d",
+      "category": "1-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 5,
+      "name": "longest-palindromic-substring",
+      "topic": "dp-1d",
+      "category": "1-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 647,
+      "name": "palindromic-substrings",
+      "topic": "dp-1d",
+      "category": "1-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 91,
+      "name": "decode-ways",
+      "topic": "dp-1d",
+      "category": "1-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 322,
+      "name": "coin-change",
+      "topic": "dp-1d",
+      "category": "1-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 152,
+      "name": "maximum-product-subarray",
+      "topic": "dp-1d",
+      "category": "1-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 139,
+      "name": "word-break",
+      "topic": "dp-1d",
+      "category": "1-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 300,
+      "name": "longest-increasing-subsequence",
+      "topic": "dp-1d",
+      "category": "1-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 62,
+      "name": "unique-paths",
+      "topic": "dp-2d",
+      "category": "2-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 1143,
+      "name": "longest-common-subsequence",
+      "topic": "dp-2d",
+      "category": "2-D DP",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 57,
+      "name": "insert-interval",
+      "topic": "greedy-intervals",
+      "category": "Greedy & Intervals",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 56,
+      "name": "merge-intervals",
+      "topic": "greedy-intervals",
+      "category": "Greedy & Intervals",
+      "difficulty": "Medium",
+      "status": "todo"
+    },
+    {
+      "id": 435,
+      "name": "non-overlapping-intervals",
+      "topic": "greedy-intervals",
+      "category": "Greedy & Intervals",
+      "difficulty": "Medium",
+      "status": "todo"
+    }
+  ]
+}

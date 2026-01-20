@@ -42,13 +42,48 @@ const problemTitle = match
 // TypeScript 模板
 const tsTemplate = `// LeetCode ${problemNumber}. ${problemTitle}
 // https://leetcode.com/problems/${match ? match[2] : problemName}/
+//
+// Description:
+//
+//
+// Example 1:
+// Input:
+// Output:
+// Explanation:
+//
+// Example 2:
+// Input:
+// Output:
+//
+// Constraints:
+//
+//
 
+// Approach:
+// Time: O(?), Space: O(?)
 function solution() {
-  // 你的解答
+  // Your solution here
 }
 
-// 測試
-// console.log(solution());
+// Test cases
+import { runTests, estimateTimeComplexity } from "../test-utils";
+
+runTests(solution, [
+  // Basic cases
+  // { input: [], expected: [], description: "Basic case 1" },
+
+  // Edge cases
+  // { input: [], expected: [], description: "Min/max constraints" },
+  // { input: [], expected: [], description: "Empty or single element" },
+  // { input: [], expected: [], description: "Duplicates" },
+  // { input: [], expected: [], description: "Negative numbers" },
+]);
+
+// Time complexity test (optional - uncomment to run)
+// estimateTimeComplexity((n) => {
+//   // Generate test data of size n
+//   solution(/* test data */);
+// });
 `;
 
 // Markdown 模板

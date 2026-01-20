@@ -1,10 +1,11 @@
 import * as fs from "fs";
 import * as path from "path";
+import { execSync } from "child_process";
 
 const args = process.argv.slice(2);
 if (args.length === 0) {
-  console.log("用法: npx ts-node scripts/done.ts <題目路徑>");
-  console.log("範例: npx ts-node scripts/done.ts array/001-two-sum");
+  console.log("用法: npm run done <題目路徑>");
+  console.log("範例: npm run done array/001-two-sum");
   process.exit(1);
 }
 
@@ -31,5 +32,28 @@ if (content.includes("// DONE")) {
 content = "// DONE\n" + content;
 fs.writeFileSync(fullPath, content);
 
+// 更新 problems.json
+const problemsPath = path.join(__dirname, "..", "problems.json");
+if (fs.existsSync(problemsPath)) {
+  const problemsData = JSON.parse(fs.readFileSync(problemsPath, "utf-8"));
+  const match = filePath.match(/(\d+)-(.+)\.ts$/);
+  if (match) {
+    const problemId = parseInt(match[1]);
+    const problem = problemsData.problems.find((p: any) => p.id === problemId);
+    if (problem) {
+      problem.status = "done";
+      fs.writeFileSync(problemsPath, JSON.stringify(problemsData, null, 2));
+    }
+  }
+}
+
 console.log(`✅ 已標記完成: ${filePath}`);
-console.log(`\n📊 查看進度: npx ts-node scripts/status.ts`);
+
+// 自動更新 README
+try {
+  execSync("npm run readme", { stdio: "inherit" });
+} catch (error) {
+  // 忽略錯誤
+}
+
+console.log(`\n📊 查看進度: npm run status`);

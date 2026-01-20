@@ -6,7 +6,12 @@
     "status": "ts-node scripts/status.ts",
     "done": "ts-node scripts/done.ts",
     "new": "ts-node scripts/new.ts",
-    "solve": "ts-node"
+    "next": "ts-node scripts/gen-next.ts",
+    "readme": "ts-node scripts/update-readme.ts",
+    "solve": "ts-node",
+    "test": "ts-node",
+    "two-sum": "ts-node array/001-two-sum.ts",
+    "two-sum:brute": "ts-node array/001-two-sum.brute.ts"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

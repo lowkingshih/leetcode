@@ -1,4 +1,3 @@
-// DONE
 // LeetCode 1. Two Sum
 // https://leetcode.com/problems/two-sum/
 //
@@ -23,19 +22,17 @@
 // -10^9 <= target <= 10^9
 //
 
-// Hash Map (Optimal)
-// Time: O(n), Space: O(n)
+// Brute Force
+// Time: O(n²), Space: O(1)
 function twoSum(nums: number[], target: number): number[] {
-  const map = new Map<number, number>();
-
-  for (let i = 0; i < nums.length; i++) {
-    const complement = target - nums[i];
-    if (map.has(complement)) {
-      return [map.get(complement)!, i];
+  for (let left = 0; left < nums.length - 1; left++) {
+    for (let right = left + 1; right < nums.length; right++) {
+      const leftValue = nums[left];
+      const rightValue = nums[right];
+      const isMatch = leftValue + rightValue === target;
+      if (isMatch) return [left, right];
     }
-    map.set(nums[i], i);
   }
-
   return [-1, -1];
 }
 
@@ -69,3 +66,9 @@ runTests(twoSum, [
     description: "Answer at end",
   },
 ]);
+
+// Time complexity test (optional - uncomment to see O(n²) growth)
+// estimateTimeComplexity((n) => {
+//   const nums = Array.from({ length: n }, (_, i) => i);
+//   twoSum(nums, n * 2); // worst case: no solution
+// });
